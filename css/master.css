@@ -1,0 +1,89 @@
+*{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.box{display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+#box1{
+    border: 5px solid red;
+    border-top-width: 15px;
+    border-width: medium;
+    outline: 2px dashed blue;
+    outline-offset: -25px;
+}
+#box2{
+    border: 5px dashed orange;
+    border-width: thin;
+    outline: 5px dotted gray;
+    outline-offset: -25px;
+}
+#box3{
+    border: 0px dotted yellow;
+    border-width: thick;
+    outline: 5px double green;
+    outline-offset: -25px;
+}
+#box4{
+    border: 5px double green;
+    outline: 5px outset brown;
+    outline-offset: -25px;
+}
+#box5{
+    border: 5px ridge lightblue;
+    border-bottom-width: 15px;
+    outline: 3px dashed gainsboro;
+    outline-offset: -25px;
+}
+#box6{
+    border: 10px groove blue;
+    
+    outline: 3px inset gainsboro;
+    outline-offset: -25px;
+}
+#box7{
+    border: 5px inset fuchsia;
+    border-left-width: 15px;
+    outline: 3px outset rosybrown;
+    outline-offset: -25px;
+} 
+
+#box8{
+    border: 5px outset rosybrown;
+    border-right-width: 15px;
+    outline: 3px inset fuchsia;
+    outline-offset: -25px;
+}
+#box9{
+    border: 5px none blue;
+    /* Не отображает рамку задаёт её нулевой */
+    outline: 5px dashed blue;
+    outline-offset: -25px;
+}
+#box10{
+    border: 5px hidden red;
+    /* То же, что и NONE, за исключением
+    если установлено значение
+    border-collapce: collapce, то граница
+    вокруг ячейка не бутет отображаться. */
+    outline: 5px dashed blue;
+    outline-offset: -25px;
+    }    
+}
+#box11{
+    border: 5px inherit gray;
+    /* Наследует значения родителя */
+    outline: 5px dashed blue;
+    outline-offset: -25px;
+}
+#box12{
+    border-radius: 15px 30px 45px 0;
+    border-top: 3pt solid #ccc;
+    border-right: .3em dotted #f00;
+    border-bottom: 7px dashed rgb(0, 235, 255);
+    border-left: thick outset crimson;
+    outline: 5px double blue;
+    outline-offset: -25px;
+}
