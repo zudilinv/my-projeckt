@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.sea_battle {
+    display: flex;
+}
+.my_field{
+    margin: 10px 50px;
+  
+    width: 300px;
+    height: 300px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1px;
+}
+.letter {
+    border: 2px solid blue;
+    width: 1fr;
+    height: 1fr;
+    background-color: aqua;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-weight: bolder;
+   
+
+}
+#number_b{
+    grid-column: 1/2;
+    grid-row: 3/3;
+}
+#number_c{
+    grid-column: 1/2;
+    grid-row: 4/4;
+}
+#number_d{
+    grid-column: 1/2;
+    grid-row: 5/5;
+}
+#number_e{
+    grid-column: 1/2;
+    grid-row: 6/6;
+}
+.box {
+    border: 2px solid blue; 
+    width: 1fr;
+    height: 1fr;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+#box_b_5, #box_c_5, #box_d_5, #box_e_5{ 
+    background-color: orange;
+}
+#box_e_1, #box_e_2, #box_e_3{ 
+    background-color: rgb(13, 255, 0);
+}
+#box_b_1, #box_c_1, #box_b_3, #box_c_3{ 
+    background-color: rgb(255, 0, 191);
+}
+#box_a_2, #box_a_4{ 
+    background-color: rgb(255, 0, 0);
+}
+
+.another_field{
+    margin: 10px 20px;
+  
+    width: 300px;
+    height: 300px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1px;
+  
+}
+.letter_another {
+    border: 2px solid blue;
+    width: 1fr;
+    height: 1fr;
+    background-color: yellow;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-weight: bolder;
+   
+}
+#another_number_b{
+    grid-column: 1/2;
+    grid-row: 3/3;
+}
+#another_number_c{
+    grid-column: 1/2;
+    grid-row: 4/4;
+}
+#another_number_d{
+    grid-column: 1/2;
+    grid-row: 5/5;
+}
+#another_number_e{
+    grid-column: 1/2;
+    grid-row: 6/6;
+}
+.box_another {
+    border: 2px solid blue; 
+    width: 1fr;
+    height: 1fr;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+   
+}
